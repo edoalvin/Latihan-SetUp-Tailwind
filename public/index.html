@@ -7,21 +7,79 @@
     <link rel="stylesheet" href="./css/style.css"/>  
 </head>
 <body>
-    <header>
-        <div>
+    <header class="flex justify-between px-12 py-4">
             <div>
-                <img
+                <img src="image/Logo.png" alt="image">
             </div>
-            <div>
-                <ul>
-                    <li><a href="Home"></a></li>
-                    <li><a href="Features"></a></li>
-                    <li><a href="Community"></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+            <nav class="flex items-center gap-5">
+                <ul class="flex gap-5">
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Features">Features</a></li>
+                    <li><a href="Community">Community</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Pricing">Pricing</a></li>
                 </ul>
-            </div>
-        </div>
+                <button class="px-6 py-2 bg-green-500 rounded-lg text-white font-semibold">Register Now</button>
+            </nav>
     </header>
+
+    <!-- HERO Start -->
+    <div class="grid grid-cols-2 flex px-12 py-4">
+        <div class="flex flex-col gap-4 justify-center">
+            <h1 class="font-semibold text-5xl text-gray-700">Lessons and insights
+                <br> 
+                <span class="text-green-500">from 8 years</span>
+            </h1>
+            <p class="text-gray-700 text-sm">Where to grow your business as a photographer: site or social media?</p>
+            <button class="w-1/4 px-6 py-2 bg-green-500 rounded-lg text-white font-semibold">register</button>
+        </div>
+        <div class="flex justify-center">
+            <img src="image/Illustration.png" alt="image" class="w-2/3">
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Main Start -->
+    <div class="flex flex-col mt-5">
+        <div class="flex flex-col gap-3 items-center">
+            <h2 class="text-3xl font-semibold text-gray-700">Our Clients</h2>
+            <p class="text-gray-500 text-sm">We have been working with some Fortune 500+ clients</p> 
+        </div>
+        <div class="flex gap-28 px-12 py-6 justify-center">
+            <img src="image/Client.png" alt="image">
+            <img src="image/Client.png" alt="image">
+            <img src="image/Client.png" alt="image">
+            <img src="image/Client.png" alt="image">
+            <img src="image/Client.png" alt="image">
+            <img src="image/Client.png" alt="image">
+        </div>
+    </div>
+
+    <!-- Our Client Start -->
+    <div class="flex flex-col mt-5">
+        <div class="flex flex-col gap-3 items-center text-center">
+            <h2 class="text-3xl font-semibold text-gray-700">Manage your entire community <br> in a single system</h2>
+            <p class="text-gray-500 text-sm">Who is Nexcent suitable for?</p>
+        </div>
+
+    <div class="flex mt-6 items-center gap-4 px-12">
+        <section class="flex flex-col justify-center items-center gap-3">
+            <img src="image/Icon.png" alt="image">
+            <h3 class="text-xl font-semibold">Membership Organisations</h3>
+            <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+        </section>
+        <section class="flex flex-col justify-center items-center gap-3">
+            <img src="image/Icon2.png" alt="image">
+            <h3 class="text-xl font-semibold">National Associations</h3>
+            <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+        </section>
+        <section class="flex flex-col justify-center items-center gap-3">
+            <img src="image/Icon3.png" alt="image">
+            <h3 class="text-xl font-semibold">Clubs And Groups</h3>
+            <p class="text-center">Our membership management software provides full automation of membership renewals and payments</p>
+        </section>
+        
+    </div>
+    </div>
 </body>
 </html>
